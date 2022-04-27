@@ -1,0 +1,53 @@
+th
+{
+    border:3px ridge black;
+    width:120px;
+    height:40px;
+    color:rgb(22, 5, 5);
+
+}
+
+td
+{
+    border:1.2px solid black;
+    width:100px;
+    height:30px;
+    text-align: center;
+    color: #fffafa;
+}
+
+td:nth-child(1)
+{
+    background-color: #7395ae;
+}
+
+
+th:nth-child(1)
+{
+    background-color: #7395ae;
+}
+
+th:nth-child(2)
+{
+    background-color: #379683;
+}
+
+td:nth-child(2)
+{
+    background-color: #379683;
+}
+
+body
+{
+    background: linear-gradient(to right, #BE5869, #403A3E); 
+}
+
+table
+{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:360px;
+    height:400px;
+}
